@@ -22,7 +22,7 @@ Quick start
         'IOPHttpsTransaction',
     )
 
-2. Run `python manage.py migrate` to create the polls models.
+2. Run `python manage.py migrate` to create the necessary models.
 
 3. Refer to the Admeris documentation for using this as your payment solution.
 
