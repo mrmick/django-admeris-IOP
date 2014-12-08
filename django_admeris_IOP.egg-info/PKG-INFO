@@ -1,0 +1,49 @@
+Metadata-Version: 1.1
+Name: django-admeris-IOP
+Version: 0.1
+Summary: A simple Django app as library to interface with Admeris IOP for Interac Online.
+Home-page: UNKNOWN
+Author: Michael (MIck) Villeneuve
+Author-email: mrmickca@gmail.com
+License: BSD License
+Description: =====
+        Django-Admeris-IOP
+        =====
+        
+        Django-Admeris_IOP is a Python-Django port of the Salt/Admeris IOPHttpsTransaction libraries
+        to be used for Interac Online transactions via the vendor's API.
+        
+        If you check out the vendor's libraries, this is not a rewrite, but rather a translation
+        of their libraries to one suitable for Python and Django. 
+        
+        Detailed documentation for Admeris IOPHttpsTransaction is on the vendor's website.
+        
+        http://www.admeris.com/developers/downloads/
+        
+        Quick start
+        -----------
+        
+        1. Add "polls" to your INSTALLED_APPS setting like this::
+        
+            INSTALLED_APPS = (
+                ...
+                'IOPHttpsTransaction',
+            )
+        
+        2. Run `python manage.py migrate` to create the polls models.
+        
+        3. Refer to the Admeris documentation for using this as your payment solution.
+        
+        
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Libraries
