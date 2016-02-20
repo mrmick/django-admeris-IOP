@@ -15,7 +15,7 @@ http://www.admeris.com/developers/downloads/
 Quick start
 -----------
 
-1. Add "polls" to your INSTALLED_APPS setting like this::
+1. Add to your INSTALLED_APPS setting like this::
 
     INSTALLED_APPS = (
         ...
